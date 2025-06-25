@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина - Сладкоежка</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Сладкоежка</h1>
+            </div>
+            <nav>
+                <a href="index.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="about.html">О нас</a>
+                <a href="contact.html">Контакты</a>
+                <a href="cart.html" class="active">Корзина</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="cart">
+            <div class="container">
+                <h2>Ваша корзина</h2>
+<div class="cart-content">
+                    <div class="cart-items">
+                        <div class="cart-item">
+                            <img src="images/milk-chocolate.jpg" alt="Молочный шоколад">
+                            <div class="item-info">
+                                <h3>Молочный шоколад</h3>
+                                <p>150 руб. за шт.</p>
+                                <div class="quantity-control">
+                                    <button class="decrease">-</button>
+                                    <span class="quantity">2</span>
+                                    <button class="increase">+</button>
+                                </div>
+                            </div>
+                            <div class="item-price">
+                                <span>300 руб.</span>
+                                <button class="remove-item">×</button>
+                            </div>
+                        </div>
+                        
+                        <div class="cart-item">
+                            <img src="images/chocolate-cookies.jpg" alt="Печенье с шоколадом">
+                            <div class="item-info">
+                                <h3>Печенье с шоколадом</h3>
+                                <p>80 руб. за шт.</p>
+                                <div class="quantity-control">
+                                    <button class="decrease">-</button>
+                                    <span class="quantity">3</span>
+                                    <button class="increase">+</button>
+                                </div>
+                            </div>
+                            <div class="item-price">
+                                <span>240 руб.</span>
+                                <button class="remove-item">×</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cart-summary">
+                        <h3>Итого</h3>
+                        <div class="summary-details">
+                            <div class="summary-row">
+                                <span>Товары (2)</span>
+                                <span>540 руб.</span>
+                            </div>
+                            <div class="summary-row">
+                                <span>Доставка</span>
+                                <span>200 руб.</span>
+                            </div>
+                            <div class="summary-row total">
+                                <span>К оплате</span>
+                                <span>740 руб.</span>
+                            </div>
+                        </div>
+                        
+                        <form class="delivery-form">
+                            <h3>Доставка</h3>
+                            <div class="form-group">
+                                <label for="delivery-address">Адрес доставки:</label>
+                                <input type="text" id="delivery-address" name="delivery-address" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="delivery-date">Дата доставки:</label>
+                                <input type="date" id="delivery-date" name="delivery-date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="delivery-time">Время доставки:</label>
+                                <select id="delivery-time" name="delivery-time" required>
+                                    <option value="10-14">10:00 - 14:00</option>
+                                    <option value="14-18">14:00 - 18:00</option>
+                                    <option value="18-22">18:00 - 22:00</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="payment-method">Способ оплаты:</label>
+<select id="payment-method" name="payment-method" required>
+                                    <option value="cash">Наличными курьеру</option>
+                                    <option value="card">Картой онлайн</option>
+                                </select>
+                            </div>
+                        </form>
+                        
+                        <button class="checkout-btn">Оформить заказ</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Сладкоежка. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

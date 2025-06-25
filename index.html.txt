@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сладкоежка - Магазин сладостей</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Сладкоежка</h1>
+            </div>
+            <nav>
+                <a href="index.html" class="active">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="about.html">О нас</a>
+                <a href="contact.html">Контакты</a>
+                <a href="cart.html">Корзина</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Рай для сладкоежек!</h2>
+                <p>У нас вы найдете самые вкусные и свежие сладости.</p>
+                <a href="catalog.html" class="btn">Смотреть каталог</a>
+            </div>
+        </section>
+
+        <section class="featured-products">
+            <div class="container">
+                <h2>Рекомендуемые товары</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <img src="images/milk-chocolate.jpg" alt="Молочный шоколад">
+                        <h3>Молочный шоколад</h3>
+                        <p>Нежный молочный шоколад с орехами.</p>
+                        <span class="price">150 руб.</span>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/chocolate-cake.jpg" alt="Шоколадный торт">
+                        <h3>Шоколадный торт</h3>
+                        <p>Вкуснейший шоколадный торт на заказ.</p>
+                        <span class="price">1200 руб.</span>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/chocolate-cookies.jpg" alt="Печенье с шоколадом">
+                        <h3>Печенье с шоколадом</h3>
+                        <p>Свежее печенье с кусочками шоколада.</p>
+                        <span class="price">80 руб.</span>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Сладкоежка. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог - Сладкоежка</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Сладкоежка</h1>
+            </div>
+            <nav>
+                <a href="index.html">Главная</a>
+                <a href="catalog.html" class="active">Каталог</a>
+                <a href="about.html">О нас</a>
+                <a href="contact.html">Контакты</a>
+                <a href="cart.html">Корзина</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="catalog">
+            <div class="container">
+                <h2>Наш каталог сладостей</h2>
+                <div class="filter-section">
+                    <select id="category-filter">
+                        <option value="all">Все категории</option>
+                        <option value="chocolate">Шоколад</option>
+                        <option value="cakes">Торты</option>
+                        <option value="cookies">Печенье</option>
+<option value="candies">Конфеты</option>
+                    </select>
+                    <input type="text" id="search" placeholder="Поиск по названию...">
+                </div>
+                
+                <div class="products-grid">
+                    <div class="product-card" data-category="chocolate">
+                        <img src="images/milk-chocolate.jpg" alt="Молочный шоколад">
+                        <h3>Молочный шоколад</h3>
+                        <p>Нежный молочный шоколад с орехами.</p>
+                        <span class="price">150 руб.</span>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    <div class="product-card" data-category="chocolate">
+                        <img src="images/dark-chocolate.jpg" alt="Горький шоколад">
+                        <h3>Горький шоколад</h3>
+                        <p>Настоящий горький шоколад 85% какао.</p>
+                        <span class="price">180 руб.</span>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    <div class="product-card" data-category="cakes">
+                        <img src="images/chocolate-cake.jpg" alt="Шоколадный торт">
+                        <h3>Шоколадный торт</h3>
+                        <p>Вкуснейший шоколадный торт на заказ.</p>
+                        <span class="price">1200 руб.</span>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    <div class="product-card" data-category="cakes">
+                        <img src="images/cheesecake.jpg" alt="Чизкейк">
+                        <h3>Чизкейк</h3>
+                        <p>Нежный чизкейк с ягодным топпингом.</p>
+                        <span class="price">1100 руб.</span>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    <div class="product-card" data-category="cookies">
+                        <img src="images/chocolate-cookies.jpg" alt="Печенье с шоколадом">
+                        <h3>Печенье с шоколадом</h3>
+                        <p>Свежее печенье с кусочками шоколада.</p>
+                        <span class="price">80 руб.</span>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    <div class="product-card" data-category="cookies">
+                        <img src="images/oatmeal-cookies.jpg" alt="Овсяное печенье">
+                        <h3>Овсяное печенье</h3>
+                        <p>Домашнее овсяное печенье с изюмом.</p>
+                        <span class="price">70 руб.</span>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    <div class="product-card" data-category="candies">
+                        <img src="images/truffles.jpg" alt="Шоколадные трюфели">
+                        <h3>Шоколадные трюфели</h3>
+                        <p>Набор из 6 шоколадных трюфелей.</p>
+                        <span class="price">350 руб.</span>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    <div class="product-card" data-category="candies">
+                        <img src="images/lollipops.jpg" alt="Фруктовые леденцы">
+                        <h3>Фруктовые леденцы</h3>
+                        <p>Набор разноцветных фруктовых леденцов.</p>
+                        <span class="price">120 руб.</span>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Сладкоежка. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

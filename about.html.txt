@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О нас - Сладкоежка</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Сладкоежка</h1>
+            </div>
+            <nav>
+                <a href="index.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="about.html" class="active">О нас</a>
+                <a href="contact.html">Контакты</a>
+                <a href="cart.html">Корзина</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="about">
+            <div class="container">
+                <h2>О нашей кондитерской</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Добро пожаловать в "Сладкоежку" - рай для настоящих ценителей сладкого!</p>
+                        <p>Наша история началась в 2010 году с маленькой домашней кондитерской. С тех пор мы выросли в сеть магазинов по всему городу, но сохранили домашний подход к качеству и любовь к своему делу.</p>
+                        <p>Мы используем только натуральные ингредиенты высшего качества: бельгийский шоколад, французское масло, свежие яйца от фермерских хозяйств. В наших продуктах вы не найдете искусственных консервантов и ароматизаторов.</p>
+                        <h3>Наши преимущества:</h3>
+                        <ul>
+                            <li>Свежие продукты ежедневного приготовления</li>
+                            <li>Индивидуальный подход к каждому клиенту</li>
+                            <li>Возможность заказа тортов по вашим эскизам</li>
+                            <li>Доставка в день заказа</li>
+                            <li>Гибкая система скидок для постоянных клиентов</li>
+                        </ul>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/bakery-interior.jpg" alt="Наша кондитерская">
+                    </div>
+                </div>
+                
+                <div class="team-section">
+                    <h3>Наша команда</h3>
+                    <div class="team-grid">
+                        <div class="team-member">
+                            <img src="images/chef1.jpg" alt="Анна Петрова">
+                            <h4>Анна Петрова</h4>
+                            <p>Главный кондитер</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="images/chef2.jpg" alt="Иван Сидоров">
+                            <h4>Иван Сидоров</h4>
+                            <p>Шоколатье</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="images/manager.jpg" alt="Елена Козлова">
+                            <h4>Елена Козлова</h4>
+                            <p>Менеджер</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Сладкоежка. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
